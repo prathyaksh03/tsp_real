@@ -16,7 +16,8 @@ import com.graphhopper.jsprit.core.problem.vehicle.VehicleType;
 import com.graphhopper.jsprit.core.problem.vehicle.VehicleTypeImpl;
 import com.graphhopper.jsprit.core.util.Coordinate;
 import com.graphhopper.jsprit.core.util.Solutions;
-import com.real.vrp.drone.SolutionPrinter.Print;
+import com.real.vrp.drone.util.SolutionPrinter;
+import com.real.vrp.drone.util.SolutionPrinter.Print;
 
 /**
  * Vehicle routing problem for real
@@ -30,6 +31,8 @@ public class App {
 		 */
 		VehicleTypeImpl.Builder vehicleTypeBuilder = VehicleTypeImpl.Builder.newInstance("drone")
 				.addCapacityDimension(0, 2);
+		// Converted km per hour into meter per second
+		vehicleTypeBuilder.setMaxVelocity(16.6667);
 		VehicleType vehicleType = vehicleTypeBuilder.build();
 
 		/*

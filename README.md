@@ -9,8 +9,6 @@ The goods can be pre-picked traveling at around 60kmph en-route from pickup cent
 Solution:
 This problem is a classic example of vehicle routing problem(VRP) derived from famous traveling salesman problem. For programming we make use of library called JSprit which has the algorithm for solving such VRP. The problem statement clearly defines en-route pickup and delivery with multiple depot. There are no waiting times or service times. Fleet size in each depot is assumed to be infinite, as size information is not given. The capacity of each drone is considered with weight 2 and the good deliverable weight of 1 factor.
 
-Please run the application to display the output in console.
-The solution displayed indicates the information as to which customer will be served by which pickup locations and depots. Unfortunately, The total time taken for the entire process is hard to determine as there are no cost parameters and also the earliest start and end time given. Since the vehicle used will drone, the real road map distances can"t be made use of.
-
+The solution displayed indicates the information as to which customer will be served by which pickup locations and depots.
 
 Please run the program to see the solution output.
