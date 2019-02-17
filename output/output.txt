@@ -1,0 +1,39 @@
++--------------------------+
+| problem                  |
++---------------+----------+
+| indicator     | value    |
++---------------+----------+
+| noJobs        | 9        | 
+| noServices    | 9        | 
+| fleetsize     | INFINITE | 
++--------------------------+
++----------------------------------------------------------+
+| solution                                                 |
++---------------+------------------------------------------+
+| indicator     | value                                    |
++---------------+------------------------------------------+
+| noVehicles    | 3                                        | 
++----------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------+----------------------+----------+--------------------+
+| detailed solution                                                                                                                                                     |
++---------+------------------------------------+-----------------------+-----------------------------------------+----------------------+----------+--------------------+
+| route   | Depot                              | activity              | job                                     | Total travel duration|Type      | Total delivery time|
++---------+------------------------------------+-----------------------+-----------------------------------------+----------------------+----------+--------------------+
+| 1       | Metrostrasse 12, 40235 Düsseldorf  | start                 | -                                       | -                    | -        | -                  |
+| 1       | Metrostrasse 12, 40235 Düsseldorf  | delivery              | Schlesische Straße 5, 40231 Düsseldorf  | 03m 01s              | Customer | 03m 01s            |
+| 1       | Metrostrasse 12, 40235 Düsseldorf  | pickup                | Friedrichstraße 152, 40217 Düsseldorf   | 06m 41s              | -        | -                  |
+| 1       | Metrostrasse 12, 40235 Düsseldorf  | delivery              | Kaiserstraße 2, 40479 Düsseldorf        | 09m 36s              | Customer | 09m 36s            |
+| 1       | Metrostrasse 12, 40235 Düsseldorf  | pickup                | Am Sandbach 30, 40878 Ratingen          | 17m 21s              | -        | -                  |
+| 1       | Metrostrasse 12, 40235 Düsseldorf  | end                   | -                                       | -                    | -        | -                  |
++---------+------------------------------------+-----------------------+-----------------------------------------+----------------------+----------+--------------------+
+| 2       | Am Albertussee 1, 40549 Düsseldorf | start                 | -                                       | -                    | -        | -                  |
+| 2       | Am Albertussee 1, 40549 Düsseldorf | pickup                | Schiessstraße 31, 40549 Düsseldorf      | 00m 16s              | -        | -                  |
+| 2       | Am Albertussee 1, 40549 Düsseldorf | end                   | -                                       | -                    | -        | -                  |
++---------+------------------------------------+-----------------------+-----------------------------------------+----------------------+----------+--------------------+
+| 3       | Am Albertussee 1, 40549 Düsseldorf | start                 | -                                       | -                    | -        | -                  |
+| 3       | Am Albertussee 1, 40549 Düsseldorf | delivery              | Wildenbruchstraße 2, 40545 Düsseldorf   | 01m 48s              | Customer | 01m 48s            |
+| 3       | Am Albertussee 1, 40549 Düsseldorf | delivery              | Kronprinzenstraße 88, 40217 Düsseldorf  | 04m 20s              | Customer | 04m 20s            |
+| 3       | Am Albertussee 1, 40549 Düsseldorf | pickup                | Breslauer Str. 2, 41460 Neuss           | 08m 07s              | -        | -                  |
+| 3       | Am Albertussee 1, 40549 Düsseldorf | pickup                | Bataverstraße 93, 41462 Neuss           | 12m 04s              | -        | -                  |
+| 3       | Am Albertussee 1, 40549 Düsseldorf | end                   | -                                       | -                    | -        | -                  |
++----------------------------------------------------------------------------------------------------------------+----------------------+----------+--------------------+
