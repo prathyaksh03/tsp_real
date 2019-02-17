@@ -12,3 +12,6 @@ This problem is a classic example of vehicle routing problem(VRP) derived from f
 The solution displayed indicates the information as to which customer will be served by which pickup locations and depots.
 
 Please run the program to see the solution output.
+
+To run the program please go to class com.real.vrp.drone.App.java
+The output is also placed in output folder in text format.
